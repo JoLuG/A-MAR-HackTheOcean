@@ -21,7 +21,7 @@ _
 
 ## Autores ✒️
 
-* **Jorge Luis Gonzalez Suarez** - *Documentación* - [JoLuG](https://github.com/JoLuG)
-* **Victor Manuel Nuñez** - *Trabajo Inicial* - [VictorManuelSalas](https://github.com/VictorManuelSalas)
-* **Ada Jimena Vargas** - *Documentación* - [Jim VA](https://github.com/Jim-VA)
+* **Jorge Luis Gonzalez Suarez**  [JoLuG](https://github.com/JoLuG)
+* **Victor Manuel Nuñez** [VictorManuelSalas](https://github.com/VictorManuelSalas)
+* **Ada Jimena Vargas**  [Jim VA](https://github.com/Jim-VA)
 
