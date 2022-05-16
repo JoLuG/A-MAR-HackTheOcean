@@ -15,21 +15,29 @@
 <style>
     body {
         overflow: hidden;
-        background-image: url(./assets/images/tortuga.png);
+        background-image: url(./assets/images/fondo.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    #ima img{
+        height: 100%;
+        border: none;
     }
 </style>
 
 <body>
     <div style="margin-top: 2%; margin-bottom: 2%;">
 
-        <div style="margin: auto; border: solid black 0.1px; border-radius: 1rem;" class="row col-sm-9 p-1+ bg-white shadow">
-            <div class="col-sm-5" style="display: flex;  ">
-                <div class="card" style="border: none; display: flex; height: fit-content; justify-content: center; align-items: center;">
+        <div style="margin: auto; border: none; border-radius: 1rem;"
+            class="row col-sm-9 p-1+ bg-white shadow">
+            <div class="col-sm-5" style=" display: flex;">
+                <div class="card"  style="height: 100%;  align-items: center; border: none;">
+                    <div class="card-body " id="ima" style=" height: 100%; align-items: center;">
+                        
+                            <img src="./assets/images/tortuga.png" alt="Maritime Auth" class="img-thumbnail m-2">
 
-                    <img src="./assets/images/tortuga.png" alt="Maritime Auth" class="img-thumbnail "
-                        style="border: none; " >
+                    </div>
+                  
                 </div>
             </div>
             <div class="col-sm-7">
