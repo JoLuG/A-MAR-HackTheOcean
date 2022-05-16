@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> A MAR</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <div class = "container">
+            <div class = "navebar">
+                <img src="assets/images/logo.png" class="logo">
+                <nav>
+                    <ul id="menulist">
+                        <li><a href="about.html">Acerca de</a></li>
+                        <li><a href="">Pesca nacional</a></li>
+                        <li><a href="login.html">Login / Register</a></li>
+
+                    </ul>
+                </nav>
+                <img src="assets/images/menu.png" class="menu-i" onclick="togglemu()">
+            </div>
+            <div class="row">
+                <div class="col1">
+                    <h2>A MAR <br> Cuidando tu planeta</h2>
+                    <h3>Sitio informativo</h3>
+                    <p> Te ayudamos a proteger a las especies marinas en peligro de extinción en México.</p>
+                    <h4>Sin costo</h4>
+                    <a href="about.html">
+                        <button type="button"> Conócenos<img src="assets/images/arrow.png"></button>
+                    </a>
+                    
+        
+                </div>
+
+                <div class="col2">
+                    <img src="assets/images/sea-turtle.png" class="landing-i">
+                    <div class="color-box">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="sns">
+                <img src="assets/images/fb.png">
+                <img src="assets/images/ig.png">
+                <img src="assets/images/tw.png">
+            </div>
+        </div>
+
+        <!-------------Toggle menu----------------->
+        <script>
+            var menulist = document.getElementById("menulist");
+
+            menulist.style.maxHeight = "0px";
+
+            function togglemu(){
+                if(menulist.style.maxHeight == "0px"){
+                    menulist.style.maxHeight = "130px";
+                }
+
+                else {
+                    menulist.style.maxHeight = "0px";
+                }
+            }
+
+        </script>
+
+        
+    </body>
+</html>

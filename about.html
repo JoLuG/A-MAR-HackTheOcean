@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> A MAR</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <div class = "container">
+            <div class = "navebar">
+                <a href="index.html"><img src="assets/images/logo.png" class="logo"></a>
+                <nav>
+                    <ul id="menulist">
+                        <li><a href="about.html">Acerca de</a></li>
+                        <li><a href="login.html">Login / Register</a></li>
+
+                    </ul>
+                </nav>
+                <img src="assets/images/menu.png" class="menu-i" onclick="togglemu()">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col1">
+                <h2>Sobrepesca en <br> México</h2>
+                <h3>Panorama actual</h3>
+               
+                <a href="species.html">
+                    <button type="button"> Sobre las especies<img src="assets/images/arrow.png"></button>
+                </a>
+                
+    
+            </div>
+
+            <div class="col2">
+                <img src="assets/images/fish.jpg" class="new-i">
+                <div class="color-box">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="container">
+                <div calss ="col1">
+                    <p> De acuerdo con la CONABIO (2022), en México se explotan a 589 especies, 
+                        donde 271 se encuentran en el Golfo de México y el Caribe, mientras que
+                        318 están en el Pacífico. Aunado a esto, se encuentra el deterioro de la capacidad 
+                        producción de alimento de los ecosistemas marinos, debido principalmente a la sobrepesca.
+                </div>
+            </div>
+
+            <div class="col2">
+                <a href="https://www.biodiversidad.gob.mx/diversidad/alimentos/peces">  <img src="assets/images/produccionPesquera2011.jpg" class="new-i"></a>
+                <div class="color-box">
+                    <p> Clic en la imagen para consultar datos de la CONABIO.</p>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+        <div class = "row">
+            <div class="container">
+                <div calss ="col1">
+                    <p> Por esta razón, lo que buscamos en A MAR es difundir información y concientizar a la población sobre
+                        el impacto de esta práctica, así como mostras cuáles son las especies marinas que se encuentran
+                        en peligro de extinción.            
+                </div>
+            </div>
+        </div>
+
+
+    <!-------------Toggle menu----------------->
+    <script>
+        var menulist = document.getElementById("menulist");
+
+        menulist.style.maxHeight = "0px";
+
+        function togglemu(){
+            if(menulist.style.maxHeight == "0px"){
+                menulist.style.maxHeight = "130px";
+            }
+
+            else {
+                menulist.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+
+    
+</body>
+</html>
